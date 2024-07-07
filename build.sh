@@ -66,6 +66,7 @@ MAKE="./makeparallel"
 command -v java > /dev/null 2>&1
 
 # Cleaning out
+rm -rf out
 mkdir -p out
 make O=out clean
 
